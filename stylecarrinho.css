@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C1C1C1;
+}
+
+header{
+    width: 100%;
+    height: 169px;
+    background-color: white;
+    display: flex;
+}
+
+nav{
+    font-size: 20px;
+    font-family: Verdana;
+    margin-top: 30px;
+    margin-left: 60%;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+#geladao{
+    width: 169px;
+    height: 169px;
+}
+
+div{
+    width: 230px;
+    height: 50px;
+    background-color: #D9D9D9;
+}
+
+section{
+    width: 100%;
+    height: 50px;
+    background-color: #243A69;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Verdana;
+    margin-left: 20px;
+}
+
+#pesquisa-por-produtos{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+#lupa{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#pesquisa{
+    margin-left: 30px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+main{
+    font-family: Verdana;
+    display: flex;
+}
+
+table{
+    background-color: rgb(37, 97, 146);
+    width: 1000px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#cabecalho{
+    background-color: white;
+    height: 30px;
+}
+
+#coluna1{
+    width: 10%;
+}
+
+#coluna2{
+    background-color: white;
+    opacity: 70%;
+    width: 10%;
+}
+
+#coluna3{
+    width: 60%;
+    text-align: left;
+    
+}
+
+#coluna4{
+    background-color: white;
+    width: 20%;
+}
+
+#linha1{
+    background-color: r#5B88A5;
+}
+
+#linha2{
+    background-color: #D9D9D9;
+}
+
+#linha4{
+    background-color: #D9D9D9;
+}
+
+#linha6{
+    background-color: #D9D9D9;
+}
+
+#linha8{
+    background-color: #D9D9D9;
+}
+
+#main2{
+    flex-direction: column;
+    
+}
+
+#total{
+    background-color: #D9D9D9;
+    width: 330px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h3{
+    margin-top: 60px;
+    margin-right: 80px;
+    font-size: 40px;
+}
+
+#finalizar{
+    background-color: rgb(0, 106, 0);
+    width: 330px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#cancelar{
+    background-color: rgb(182, 0, 0);
+    width: 330px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    
+}
+
+
+
+footer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(182, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#logout{
+    width: 50px;
+    height: 50px;
+}

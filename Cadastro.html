@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Geladão Bebidas</title>
+    <link rel="stylesheet" href="stylecadastro.css">
+</head>
+<body>
+    <header>
+        <img src="img/geladao.png" alt="logo da empresa" id="geladao">
+        <nav>
+            <a href="home.html">Home</a> &nbsp;&nbsp;
+		    <a href="login.html">Login</a> &nbsp;&nbsp;
+		    <a href="relatorios.html">Relatórios</a> &nbsp;&nbsp;
+		    <a href="carrinho.html">Carrinho</a> &nbsp;&nbsp;
+		    <a href="cadastro.html">Cadastro</a> 
+        </nav>
+    </header>
+    
+    <section>
+        <div id="aba-Cadastro">
+            <h1>
+                Cadastro
+            </h1>
+        </div>
+        
+    </section>
+    <div id="Main-container">   
+                    
+                <h2>Cadastro</h2>
+            
+                <form id="register-form" name="" method="" action="">
+
+                    <div class="half-box">
+                        <label for="nick">Nome:</label>
+                        <input id="nick" type="text" name="nick_name"  placeholder="Digite o Nome desejado" required autofocus /><br/>
+                    </div>
+                    <div class="half-box">
+                        <label for="email">E-mail :</label>
+                        <input id="email" type="email" name="email" size="45" placeholder="Digite seu E-mail" required><br/>
+                    </div>
+                    
+                    <div class="half-box">
+                        <label for="Telefone">Telefone :</label>
+                        <input id="telefone" type="tel" name="telefone" size="20%" placeholder="(99)99999-9999" />
+                    </div>
+
+                        
+                    <div>   
+
+                        <label for="niver">Data de Nascimento:</label>
+                        <input id="niver" type="date" name="niver"/>
+                    </div>
+                    <div>
+                        <label for="CEP">CEP:</label>
+                        <input id="CEP" type="number" name="CEP" min="1" max="100"   />
+                    </div>  
+
+                    
+
+                    <fieldset>
+                    <legend>Gênero</legend> 
+                        <input id="masc" type="radio" name="genero" value="masc"><label for="masc">Masculino</label><br/>
+                        <input id="fem" type="radio" name="genero" value="fem"><label for="fem">Feminino</label>
+                        <input id="masc" type="radio" name="genero" value="masc"><label for="masc">Outros</label><br/>
+                        <input id="fem" type="radio" name="genero" value="fem"><label for="fem">Nao Informar</label>
+                    </fieldset> 
+
+                    <div class="half-box-2">
+                        
+                        <input id="senha" type="password" name="senha" size="45" placeholder="Crie uma senha" required><br/>
+                    </div>
+                    <div class="half-box-2">
+                        
+                        <input id="senha" type="password" name="senha" size="45" placeholder="Repita a senha" required><br/>
+                    </div>
+
+        
+
+                    <div class="half-box-2">   
+                        <input type="submit" id="btn-confirmar" name="btn-confirmar" value="CONFIRMAR" />
+                        <input type="reset" name="btn-resetar" value="RESETAR" />
+                    </div> 
+                </form> 
+                </div>  
+
+
+    
+
+    <footer>
+        <img src="img/logout.png" alt="logout" id="logout">
+    </footer>
+</body>
+</html>
