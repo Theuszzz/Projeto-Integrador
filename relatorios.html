@@ -9,7 +9,7 @@
     <header>
         <img src="img/geladao.png" alt="logo da empresa" id="geladao">
         <nav>
-            <a href="home.html">Home</a> &nbsp;&nbsp;
+            <a href="index.html">Home</a> &nbsp;&nbsp;
 		    <a href="login.html">Login</a> &nbsp;&nbsp;
 		    <a href="relatorios.html">Relatórios</a> &nbsp;&nbsp;
 		    <a href="carrinho.html">Carrinho</a> &nbsp;&nbsp;
@@ -30,26 +30,112 @@
 
         <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisa por data">
     </main>
+    <main id="">
+        <img id="doc-img" src="img/doc-img.png">
+        <h1>
+            Faturamento
+        </h1>
+        <h2>
+            09/12
+        </h2>
+    </main>
+    <main id="">
+        <img id="doc-img" src="img/doc-img.png">
+        <h1>
+            Faturamento
+        </h1>
+        <h2>
+            08/11
+        </h2>
+    </main>
 
     <section>
         <div>
             <h1>
-                Despesas
+                Produtos em estoque
             </h1>
         </div>
     </section>
 
-    <textarea name="despesas" id="despesas" cols="30" rows="10"></textarea>
+    <table>
+            <thead>
+            <tr id="cabecalho">
+                <th id="coluna1">Qtd.</th>
+                <th >Valor un.</th>
+                <th id="coluna3">Produto</th>
+                <th id="coluna4">Valor total</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- 9 linhas na tabela -->
+            <tr id="linha1">
+                <td id="coluna1">0000</td>
+                <td id="coluna2">R$000,00</td>
+                <td id="coluna3">Aaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td id="coluna4">R$000,00</td>
+            </tr>
+            <tr id="linha2">
+                <td id="coluna1">0000</td>
+                <td id="coluna2">R$000,00</td>
+                <td id="coluna3">Aaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td id="coluna4">R$000,00</td>
+            </tr>
+            <tr id="linha3">
+                <td id="coluna1">0000</td>
+                <td id="coluna2">R$000,00</td>
+                <td id="coluna3">Aaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td id="coluna4">R$000,00</td>
+            </tr>
+            <tr id="linha4">
+                <td id="coluna1">0000</td>
+                <td id="coluna2">R$000,00</td>
+                <td id="coluna3">Aaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td id="coluna4">R$000,00</td>
+            </tr>
+            <tr id="linha5">
+                <td id="coluna1">0000</td>
+                <td id="coluna2">R$000,00</td>
+                <td id="coluna3">Aaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td id="coluna4">R$000,00</td>
+            </tr>
+            </tbody>
+        </table>
 
     <section>
-        <main>
+        <div>
             <h1>
                 Cadastro de produtos
             </h1>
-        </main>
+        <div>
     </section>
 
-    <textarea name="cadastro-produtos" id="cadastro" cols="30" rows="10"></textarea>
+    <form id="register-form">
+        <section class="card-produto" class="half-box">
+            <label for="name" >Nome:</label>
+            <input id="name" type="name" name="nick_name" placeholder="Digite o nome do produto" required autofocus />
+                        <label for="type">Tipo</label>
+                        <select id="persona" name="persona">
+                            <option>Selecione</option>
+                            <option value="Solaire">Cerveja</option>
+                            <option value="siegmeyer">Vinho</option>
+                            <option value="Sif">Destilados</option>
+                            <option value="Abyss">Outros</option>
+                        </select> 
+        
+        
+            <label for="codigo">Codigo:</label>
+            <input id="codigo" type="codigo" name="codigo" placeholder="Codigo do produto">
+            <label for="valor">Valor:</label>
+            <input type="valor" name="valor" placeholder="Valor em R$"></section><br/>
+
+               
+                        <input type="submit" id="btn-confirmar" name="btn-confirmar" value="CONFIRMAR" />
+                        <input type="reset" name="btn-resetar" value="RESETAR" />
+                    
+            
+        </section>
+
+    </form>
 
 
     <footer>
